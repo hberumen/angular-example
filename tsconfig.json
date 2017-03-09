@@ -1,16 +1,8 @@
 {
     "compilerOptions": {
-        "module": "system",
+        "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "outDir": "built",
-        "rootDir": ".",
-        "sourceMap": false,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "moduleResolution": "node"
+        "sourceMap": false
     }
-    "excluide": [
-        "node_modules"
-    ]
 }
